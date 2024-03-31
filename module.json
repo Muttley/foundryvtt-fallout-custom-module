@@ -1,0 +1,165 @@
+{
+	"id": "fallout-custom-data",
+	"title": "Fallout: Custom Data",
+	"description": "Custom data and resources for Fallout",
+	"authors": [],
+	"version": "1.0.0",
+	"compatibility": {
+		"minimum": "11",
+		"verified": "11"
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id": "fallout",
+				"type": "system"
+			}
+		]
+	},
+	"flags": {
+		"fallout-custom-data": {
+			"fallout-art": "modules/fallout-custom-data/fallout-art.json"
+		}
+	},
+	"packs": [
+		{
+			"label": "Ammunition",
+			"type": "Item",
+			"name": "ammunition",
+			"path": "packs/ammunition",
+			"system": "fallout",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"label": "Apparel",
+			"type": "Item",
+			"name": "apparel",
+			"path": "packs/apparel",
+			"system": "fallout",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"label": "Armor and Clothing Mods",
+			"type": "Item",
+			"name": "armor-and-clothing-mods",
+			"path": "packs/armor-and-clothing-mods",
+			"system": "fallout",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"label": "Books and Magazines",
+			"type": "Item",
+			"name": "books-and-magazines",
+			"path": "packs/books-and-magazines",
+			"system": "fallout",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"label": "Consumables",
+			"type": "Item",
+			"name": "consumables",
+			"path": "packs/consumables",
+			"system": "fallout",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"label": "Denizens of the Wasteland",
+			"type": "Actor",
+			"name": "denizens",
+			"path": "packs/denizens",
+			"system": "fallout",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"label": "Perks",
+			"type": "Item",
+			"name": "perks",
+			"path": "packs/perks",
+			"system": "fallout",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"label": "Rollable Tables",
+			"type": "RollTable",
+			"name": "rollable-tables",
+			"path": "packs/rollable-tables",
+			"system": "fallout",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"label": "Weapon Mods",
+			"type": "Item",
+			"name": "weapon-mods",
+			"path": "packs/weapon-mods",
+			"system": "fallout",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"label": "Weapons",
+			"type": "Item",
+			"name": "weapons",
+			"path": "packs/weapons",
+			"system": "fallout",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		}
+	],
+	"packFolders": [
+		{
+			"name": "Fallout: Custom Data",
+			"sorting": "a",
+			"color": "#453249",
+			"packs": [
+				"ammunition",
+				"apparel",
+				"armor-and-clothing-mods",
+				"books-and-magazines",
+				"consumables",
+				"denizens",
+				"perks",
+				"rollable-tables",
+				"weapon-mods",
+				"weapons"
+			]
+		}
+	]
+}
