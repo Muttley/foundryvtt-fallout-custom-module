@@ -3,7 +3,7 @@
 	"title": "Fallout: Custom Data",
 	"description": "Custom data and resources for Fallout",
 	"authors": [],
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"compatibility": {
 		"minimum": "11",
 		"verified": "11"
@@ -18,7 +18,10 @@
 	},
 	"flags": {
 		"fallout-custom-data": {
-			"fallout-art": "modules/fallout-custom-data/fallout-art.json"
+			"fallout-art": "modules/fallout-custom-data/fallout-art.json",
+			"fallout-sources": {
+				"homebrew": "My Homebrew Items"
+			}
 		}
 	},
 	"packs": [
